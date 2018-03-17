@@ -1,0 +1,21 @@
+{
+  "global": {
+    "site": "Wordpress > DADI Web",
+    "description": "An exciting beginning."
+  },
+  "globalEvents": [
+    "global"
+  ],
+  "server": {
+    "host": "127.0.0.1",
+    "port": 4444
+  },
+  "cluster": false,
+  "allowJsonView": true,
+  "debug": true,
+  "paths": {
+    "workspace": "workspace",
+    "pages": "workspace/pages",
+    "events": "workspace/events"
+  }
+}

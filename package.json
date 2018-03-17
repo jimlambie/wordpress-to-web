@@ -1,0 +1,13 @@
+{
+  "name": "wordpress-to-web",
+  "main": "server.js",
+  "description": "A sample DADI Web app showing migration from Wordpress",
+  "dependencies": {
+    "@dadi/web": "^5.0.0",
+    "@dadi/web-dustjs": "^1.1.1",
+    "moment": "latest",
+    "underscore": "latest"
+  },
+  "author": "James Lambie <jl@dadi.co>",
+  "license": "MIT"
+}

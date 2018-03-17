@@ -1,0 +1,16 @@
+{
+  "page": {
+    "key": "post",
+    "name": "Blog post",
+    "description": "A single blog post."
+  },
+  "settings": {},
+  "routes": [
+    {
+      "path": "/post/:slug"
+    }
+  ],
+  "datasources": [
+    "posts"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "datasource": {
+    "key": "posts",
+    "name": "posts",
+    "source": {
+      "type": "markdown",
+      "path": "workspace/content"
+    },
+    "paginate": true,
+    "count": 20,
+    "sort": {},
+    "fields": [],
+    "requestParams": [
+      {
+        "param": "slug",
+        "field": "_id"
+      }
+    ]
+  }
+}

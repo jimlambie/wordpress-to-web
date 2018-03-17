@@ -1,0 +1,18 @@
+{>"partials/header" /}
+
+{#posts.results}
+  <ul>
+    {?attributes.title}
+      <li>
+        <a href="/post/{attributes._id}">{attributes.title}</a>
+      </li>
+    {/attributes.title}
+  </ul>
+{/posts.results}
+
+{>"partials/pagination" 
+	currentPage=posts.metadata.page
+	totalPages=posts.metadata.totalPages
+/}
+
+{>"partials/footer" /}
