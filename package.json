@@ -9,5 +9,9 @@
     "underscore": "latest"
   },
   "author": "James Lambie <jl@dadi.co>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimlambie/wordpress-to-web.git"
+  }
 }
